@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/04 11:12:32 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/12 21:36:15 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/13 17:32:39 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,9 @@ void	*ft_memchr(const void *str, int c, size_t n)
 
 	x = (char *) str;
 	i = 0;
-	while (i < n - 1)
+	while (i < n)
 	{
-		if (x[i] == c)
+		if (x[i] == (char)c)
 		{	
 			return (&x[i]);
 		}

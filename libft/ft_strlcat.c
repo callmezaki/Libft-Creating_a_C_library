@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 14:44:06 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/12 22:41:08 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/13 18:18:11 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,18 +19,14 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	size_t	b;
 	size_t	final;
 
-	a = 0;
-	b = 0;
-	while (dst[a])
-		a++;
-	while (src[b])
-		b++;
-	if (dstsize <= a)
-		final = b + dstsize;
+	b = ft_strlen(src);
+	a = ft_strlen(dst);
+	if (dstsize < a || dstsize == 0)
+		return (b + dstsize);
 	else
 		final = b + a;
 	b = 0;
-	while (src[b] && a < dstsize - 1 && dstsize != 0)
+	while (src[b] && a < dstsize - 1)
 	{
 		dst[a] = src[b];
 		a++;

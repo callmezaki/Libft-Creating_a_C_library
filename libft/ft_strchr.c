@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 16:07:25 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/07 19:19:37 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/13 17:29:30 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_strchr(const char *s, int c)
 	i = 0;
 	while ((size_t)i <= ft_strlen(sf))
 	{
-		if (s[i] == c)
+		if (s[i] == (char)c)
 		{
 			return (&((char *)sf)[i]);
 		}

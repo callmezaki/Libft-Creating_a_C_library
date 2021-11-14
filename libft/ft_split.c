@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 03:47:04 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/13 01:26:46 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/13 02:27:32 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,15 +106,15 @@ char	**ft_split(char const *s, char c)
 //     for(i = 0; str[i];i++)
 //             printf("tab[%d] = %s \n",i, str[i]);
 // }
-int main ()
-{
-	int    i;
-    char c[] ="\0gb\0ijbfvs";
+// int main ()
+// {
+// 	int    i;
+//     char c[] ="\0gb\0ijbfvs";
 
-    i = 0;
-    while (i <= 1)
-    {
-        printf("tab[%d] = %s \n", i, ft_split(c, '\0')[i]);
-        i++;
-    }
-}
+//     i = 0;
+//     while (i <= 1)
+//     {
+//         printf("tab[%d] = %s \n", i, ft_split(c, '\0')[i]);
+//         i++;
+//     }
+// }

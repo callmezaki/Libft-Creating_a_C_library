@@ -1,37 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strrchr.c                                       :+:      :+:    :+:   */
+/*   ft_lstsize.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/02 13:35:32 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/13 17:30:10 by zait-sli         ###   ########.fr       */
+/*   Created: 2021/11/13 04:47:34 by zait-sli          #+#    #+#             */
+/*   Updated: 2021/11/13 19:03:20 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strrchr(const char *s, int c)
+#include "libft.h"
+
+int	ft_lstsize(t_list *lst)
 {
-	int	i;
+	int	count;
 
-	i = 0;
-	while (s[i])
-		i++;
-	while (i >= 0)
+	count = 0;
+	while (lst)
 	{
-		if (s[i] == (char)c)
-		{
-			return (&((char *)s)[i]);
-		}
-		i--;
+		count++;
+		lst = lst -> next;
 	}
-	return (0);
+	return (count);
 }
-
-//#include <stdio.h>
-//int main ()
-//{
-//   char s[]= "hello lolo lamaama";
-//    int c = ' ';
-//   printf("%s", ft_strrchr(s, c));
-//}
