@@ -6,10 +6,11 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 11:59:37 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/07 16:59:05 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/16 06:46:36 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stdlib.h>
 
 char	*ft_strdup(const char *src)
@@ -36,3 +37,8 @@ char	*ft_strdup(const char *src)
 	dup[i] = '\0';
 	return (dup);
 }
+// int main ()
+// {
+// 	const char s[] = "zakariae";
+// 	printf("%s", s);
+// }

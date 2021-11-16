@@ -2,7 +2,7 @@ NAME = libft.a
 
 CC = gcc
 
-AR = ar rcs
+AR = ar rc
 
 CFLAGS = -Wall -Wextra -Werror
 
@@ -60,7 +60,7 @@ INCLUDES = libft.h \
 
 all: $(NAME)
 
-$(NAME): $(OBJECTS) $(INCLUDES) $(BUNSUSOBJ)
+$(NAME): $(OBJECTS) $(BUNSUSOBJ) $(INCLUDES) 
 
 	ar rcs $(NAME) $(OBJECTS) $(BUNSUSOBJ)
 

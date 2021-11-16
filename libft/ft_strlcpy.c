@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 12:36:48 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/12 21:34:51 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/16 07:08:19 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,9 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	return (a);
 }
 
-//int main ()
-//{
-//	char s[] = "amine hazim";
-//	char c[] = "zack";
-//	printf("%lu", ft_strlcpy(s, c, 5));
-//}
+// int main ()
+// {
+// 	char s[] = "amine hazim";
+// 	char c[] = "zack";
+// 	printf("%lu", ft_strlcpy(s, c, 5));
+// }

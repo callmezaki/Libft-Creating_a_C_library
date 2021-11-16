@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 16:07:25 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/13 17:29:30 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/16 06:44:04 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,10 @@ char	*ft_strchr(const char *s, int c)
 	return (0);
 }
 
-//#include<stdio.h>
-//int main ()
-//{
-//	char s[] = "hello world";
-//	int c = 'l';
-//	printf("%s", ft_strchr(s, c));
-//}
+// #include<stdio.h>
+// int main ()
+// {
+// 	char s[] = "hello world";
+// 	int c = 'l';
+// 	printf("%s", ft_strchr(s, c));
+// }

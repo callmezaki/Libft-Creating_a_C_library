@@ -6,34 +6,35 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 03:47:04 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/13 02:27:32 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/15 21:22:54 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+#include <stdlib.h>
 #include "libft.h"
+
 #include<stdlib.h>
 
 static int	words_count(char *s, char c)
 {
 	int	i;
-	int	count;
+	int	words;
 
 	i = 0;
-	count = 0;
+	words = 0;
+	while (s[i] == c && s[i])
+		i++;
 	while (s[i])
 	{
-		// if (s[i] != c && c != '\0' && (s[i + 1] == c || s[i + 1] == '\0'))
-		if (s[i] != c && s[i])
+		if (i == 0 || s[i - 1] == c)
 		{
-			while (s[i] != c && s[i])
-				i++;
-			// printf("%c %d\n",s[i], i);
-			count++;
+			if (s[i] != c && s[i] != '\0')
+				words++;
 		}
-		else
-			i++;
+		i++;
 	}
-	return (count);
+	return (words);
 }
 
 static void	move_word(char *from, char *to, int start, int j)
@@ -44,7 +45,6 @@ static void	move_word(char *from, char *to, int start, int j)
 	while (j > 0)
 	{
 		to[a] = from[start];
-		// printf("[%d]\t%c\n",a, to[a]);
 		a++;
 		start++;
 		j--;
@@ -52,55 +52,64 @@ static void	move_word(char *from, char *to, int start, int j)
 	to[a] = '\0';
 }
 
-char	**ft_split(char const *s, char c)
+static void	ft_free(char **p, int a)
 {
-	char	**tab;
+	while (a >= 0)
+		free(p[--a]);
+	free(p);
+}
+
+static void	ft_lastpart(char **p, char const *s, char c)
+{
 	int		i;
-	int		j;
+	int		len;
 	int		a;
 
 	i = 0;
-	j = 0;
+	len = 0;
+	a = 0;
+	while (s[i])
+	{
+		len = 0;
+		while (s[i] == c)
+			i++;
+		while (s[i + len] != c && s[i + len] != '\0')
+			len++;
+		if (len != 0)
+		{
+			p[a] = (char *)malloc(len + 1);
+			if (p[a] == NULL)
+				ft_free(p, a);
+			move_word((char *)s, p[a], i, len);
+			a++;
+		}
+		i = i + len;
+	}
+}
+
+char	**ft_split(char const *s, char c)
+{
+	int		i;
+	int		len;
+	int		a;
+	char	**p;
+
+	i = 0;
+	len = words_count((char *)s, c);
 	a = 0;
 	if (!s)
 		return (NULL);
-	// printf("%d\n",words_count((char *)s, c));
-	tab = (char **)malloc(sizeof(char *) * (words_count((char *)s, c) + 1));
-	if (tab == NULL)
+	p = (char **)malloc(sizeof(char *) * (words_count((char *)s, c) + 1));
+	if (p == NULL)
 		return (NULL);
-	while (s[i])
-	{
-		j = 0;
-		while (s[i] == c)
-			i++;
-		while (s[i] != c && s[i] != '\0')
-		{
-			i++;
-			j++;
-		}
-		if (j != 0)
-		{
-			tab[a] = (char *)malloc(j + 1);
-			if (tab[a] == NULL)
-			{
-				while (a >= 0)
-				{
-					a--;
-					free(tab[a]);
-				}
-				free(tab);
-			}
-			move_word((char *)s, tab[a], (i - j), j);
-			a++;
-		}
-	}
-	tab[a] = NULL;
-	return (tab);
+	ft_lastpart(p, s, c);
+	p[len] = NULL;
+	return (p);
 }
 // int main()
 // {
 //     int i;
-//     char c[] = "m\0jn\0i";
+//     char c[] = "dsr dfd\0j n\0i";
 //     // char c[] = "split||||||this||||for||me|||!|";
 // 	char **str = ft_split(c,' ');
 //     for(i = 0; str[i];i++)

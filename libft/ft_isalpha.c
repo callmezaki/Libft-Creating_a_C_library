@@ -6,9 +6,11 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 13:04:45 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/05 14:22:50 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/16 06:22:11 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isalpha(int c)
 {
@@ -17,3 +19,7 @@ int	ft_isalpha(int c)
 	else
 		return (0);
 }
+// int main()
+// {
+// 	printf("%d", ft_isalpha('h'));	
+// }

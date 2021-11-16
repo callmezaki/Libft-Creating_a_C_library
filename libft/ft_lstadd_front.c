@@ -6,8 +6,14 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/13 19:02:57 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/13 19:42:02 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/14 21:58:32 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+void	ft_lstadd_front(t_list **lst, t_list *new)
+{
+	new -> next = *lst;
+	*lst = new;
+}

@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 12:01:45 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/13 17:50:57 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/16 07:13:40 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 }
 //  int main()
 // {
-//  	char s[] = "             ";
+//  	char s[] = "     f        ";
 //     char set[] = " ";
 // 	printf("%s|", ft_strtrim(s,set));
 // }

@@ -6,9 +6,11 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 14:43:40 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/01 15:01:32 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/16 06:30:04 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isdigit(int c)
 {
@@ -17,3 +19,7 @@ int	ft_isdigit(int c)
 	else
 		return (0);
 }
+// int main()
+// {
+// 	printf("%d", ft_isdigit('7'));
+// }

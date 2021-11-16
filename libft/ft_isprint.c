@@ -6,9 +6,11 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 15:37:25 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/07 16:53:39 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/16 06:32:13 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isprint(int c)
 {
@@ -19,3 +21,8 @@ int	ft_isprint(int c)
 	else
 		return (0);
 }
+
+// int main()
+// {
+// 	printf("%d", ft_isprint('\0'));
+// }

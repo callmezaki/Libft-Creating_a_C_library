@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/04 10:49:19 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/12 21:35:10 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/16 07:12:24 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,10 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		a++;
 	return (((unsigned char *)s1)[a] - ((unsigned char *)s2)[a]);
 }
-//int main ()
-//{
-//	size_t n = 2;
-//	const char s1[] = "za";
-//	const char s2[] = "Za";
-//	printf("%d", ft_strncmp(s1, s2, n));
-//}
+// int main ()
+// {
+// 	size_t n = 2;
+// 	const char s1[] = "za";
+// 	const char s2[] = "Za";
+// 	printf("%d", ft_strncmp(s1, s2, n));
+// }
