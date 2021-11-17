@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 14:50:33 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/16 06:27:59 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/17 02:06:46 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int	ft_isascii(int c)
 		return (0);
 }
 
-// int main()
-// {
-// 	printf("%d", ft_isascii('g'));
-// }
+/* int main()
+{
+	printf("%d", ft_isascii('g'));
+}*/

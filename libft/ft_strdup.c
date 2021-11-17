@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 11:59:37 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/16 06:46:36 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/17 02:10:31 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,11 +18,7 @@ char	*ft_strdup(const char *src)
 	int		i;
 	char	*dup;
 
-	i = 0;
-	while (src[i] != '\0')
-	{
-		i++;
-	}
+	i = ft_strlen(src);
 	dup = (char *)malloc(i + 1);
 	if (dup == NULL)
 	{
@@ -37,8 +33,8 @@ char	*ft_strdup(const char *src)
 	dup[i] = '\0';
 	return (dup);
 }
-// int main ()
-// {
-// 	const char s[] = "zakariae";
-// 	printf("%s", s);
-// }
+/* int main ()
+{
+	const char s[] = "zakariae";
+	printf("%s", s);
+}*/

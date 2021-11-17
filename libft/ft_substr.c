@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 11:59:58 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/16 07:18:12 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/17 02:15:45 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	return (sub);
 }
 
-// int main()
-// {
-// 	printf("%s", ft_substr("zakariae ait sliman", 9, 9));
-// }
+/* int main()
+{
+	printf("%s", ft_substr("zakariae ait sliman", 9, 9));
+}*/

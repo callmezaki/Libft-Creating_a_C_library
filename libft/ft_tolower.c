@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 16:04:06 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/16 07:21:35 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/17 02:15:53 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,8 @@ int	ft_tolower(int c)
 		return (c);
 }
 
-// int main ()
-// {
-// 	int c = 'Z';
-// 	printf("\n%c turned to %c", c, ft_tolower(c));
-// }
+/* int main ()
+{
+	int c = 'Z';
+	printf("\n%c turned to %c", c, ft_tolower(c));
+}*/

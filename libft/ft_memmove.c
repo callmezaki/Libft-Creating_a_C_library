@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 11:37:53 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/16 06:38:05 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/17 02:09:20 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,10 +40,10 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (d);
 }
-// int main()
-// {
-//   char d[] = "abcd";
-//   const char s[] = "ABCD";
-//   printf("%s", ft_memmove(d , s, 3));
-//   return (0);
-// }
+/* int main()
+{
+  char d[] = "";
+  const char s[] = "";
+  printf("%s", ft_memmove(d , s, 3));
+  return (0);
+}*/

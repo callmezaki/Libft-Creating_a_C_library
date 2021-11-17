@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 12:03:15 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/16 07:11:32 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/17 02:14:53 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,12 +32,12 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	a[i] = '\0';
 	return (a);
 }
-// char ascii(unsigned int i, char c)
-// {
-//     return (c - 32);
-// }
-// int main()
-// {
-//     char s[] = "zack";
-//     printf("%s",ft_strmapi(s,ascii));
-// }
+/* char ascii(unsigned int i, char c)
+{
+    return (c - 32);
+}
+int main()
+{
+    char s[] = "zack";
+    printf("%s",ft_strmapi(s,ascii));
+}*/

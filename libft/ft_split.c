@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 03:47:04 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/15 21:22:54 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/17 02:10:04 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,11 +94,11 @@ char	**ft_split(char const *s, char c)
 	int		a;
 	char	**p;
 
+	if (!s)
+		return (NULL);
 	i = 0;
 	len = words_count((char *)s, c);
 	a = 0;
-	if (!s)
-		return (NULL);
 	p = (char **)malloc(sizeof(char *) * (words_count((char *)s, c) + 1));
 	if (p == NULL)
 		return (NULL);
@@ -106,24 +106,24 @@ char	**ft_split(char const *s, char c)
 	p[len] = NULL;
 	return (p);
 }
-// int main()
-// {
-//     int i;
-//     char c[] = "dsr dfd\0j n\0i";
-//     // char c[] = "split||||||this||||for||me|||!|";
-// 	char **str = ft_split(c,' ');
-//     for(i = 0; str[i];i++)
-//             printf("tab[%d] = %s \n",i, str[i]);
-// }
-// int main ()
-// {
-// 	int    i;
-//     char c[] ="\0gb\0ijbfvs";
+/* int main()
+{
+    int i;
+    char c[] = "dsr dfd\0j n\0i";
+    // char c[] = "split||||||this||||for||me|||!|";
+	char **str = ft_split(c,' ');
+    for(i = 0; str[i];i++)
+            printf("tab[%d] = %s \n",i, str[i]);
+}
+int main ()
+{
+	int    i;
+    char c[] ="\0gb\0ijbfvs";
 
-//     i = 0;
-//     while (i <= 1)
-//     {
-//         printf("tab[%d] = %s \n", i, ft_split(c, '\0')[i]);
-//         i++;
-//     }
-// }
+    i = 0;
+    while (i <= 1)
+    {
+        printf("tab[%d] = %s \n", i, ft_split(c, '\0')[i]);
+        i++;
+    }
+}*/
