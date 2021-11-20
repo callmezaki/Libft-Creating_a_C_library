@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 13:35:32 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/17 02:15:23 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/19 08:34:04 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,11 +27,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (0);
 }
-
-/* #include <stdio.h>
-int main ()
-{
-  char s[]= "hello lolo lamaama";
-   int c = ' ';
-  printf("%s", ft_strrchr(s, c));
-}*/

@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 11:59:37 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/17 02:10:31 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/19 08:33:13 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,3 @@ char	*ft_strdup(const char *src)
 	dup[i] = '\0';
 	return (dup);
 }
-/* int main ()
-{
-	const char s[] = "zakariae";
-	printf("%s", s);
-}*/

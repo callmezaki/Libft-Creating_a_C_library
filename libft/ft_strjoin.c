@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 11:24:11 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/17 02:14:00 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/19 08:33:25 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,9 +41,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	s[a] = '\0';
 	return (s);
 }
-/* int main ()
-{
-	const char *s1 = "zack ";
-	const char *s2 = "ait";
-	printf("%s", ft_strjoin(s1, s2));
-}*/

@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 12:02:54 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/17 02:07:45 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/18 20:59:54 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,7 +84,3 @@ char	*ft_itoa(int n)
 	else
 		return (ft_pos(n));
 }
-/*int main()
-{
-  printf("%s", ft_itoa(5));
-}*/

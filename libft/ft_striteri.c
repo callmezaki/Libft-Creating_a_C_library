@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/10 15:37:39 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/17 02:27:16 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/19 08:33:20 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,16 +26,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		}
 	}
 }
-
-/* void	*test(unsigned int i, char *s)
-{
-	return (&s[i]);
-}
-
-int main()
-{
-	char s[] = "zakariae";
-	unsigned int i = 0;
-	ft_striteri(s ,test);
-	printf("%s", s);
-}*/

@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 19:15:58 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/17 01:26:41 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/18 20:58:25 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,3 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
-
-/* int main()
- {
- 	char b[] = "zakariae";
- 	int c = '$';
- 	printf("%s\n", ft_memset(b , c, 18));
- }*/

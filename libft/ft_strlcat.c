@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 14:44:06 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/17 02:14:10 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/19 18:35:59 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,10 +35,11 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[a] = '\0';
 	return (final);
 }
-
-/* int main ()
+int main ()
 {
-	char dst[] = "ait";
-	char src[] = "zack";
-	printf("%zu", ft_strlcat(dst, src, 5));
-}*/
+	const char s[] = "cdef";
+	char d[] = "ab";
+
+	printf("%zu\n", ft_strlcat(d, s, 4));
+	printf("%s", d);
+}

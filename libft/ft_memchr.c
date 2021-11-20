@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/04 11:12:32 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/17 02:08:42 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/18 21:00:21 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,10 +29,3 @@ void	*ft_memchr(const void *str, int c, size_t n)
 	}
 	return (0);
 }
-/* int main ()
-{
-	char s[] = "hello world";
-	int c = 'l';
-	size_t n = 12;
-	printf("%s", ft_memchr(s, c, n));
-}*/

@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/04 12:17:09 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/17 02:05:52 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/19 08:32:23 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,3 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-
-/* int main()
-{
-	char s[] = "zakariae";
-	ft_bzero(s, 2);
-}*/

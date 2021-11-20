@@ -6,10 +6,11 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 12:06:34 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/14 21:46:43 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/18 21:00:53 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include<unistd.h>
 
 void	ft_putstr_fd(char *s, int fd)

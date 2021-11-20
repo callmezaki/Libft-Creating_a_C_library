@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 10:06:33 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/17 02:05:33 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/19 08:32:41 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,3 @@ int	ft_atoi(const char *str)
 	}
 	return (result * sign);
 }
-
-/* #include <stdlib.h>
-int	main()
-{
-	printf("%d\n", ft_atoi("+7861b56465"));
-}*/

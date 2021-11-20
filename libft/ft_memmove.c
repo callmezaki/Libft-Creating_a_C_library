@@ -6,10 +6,11 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 11:37:53 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/17 02:09:20 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/18 20:58:06 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
 #include "libft.h"
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
@@ -40,10 +41,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (d);
 }
-/* int main()
-{
-  char d[] = "";
-  const char s[] = "";
-  printf("%s", ft_memmove(d , s, 3));
-  return (0);
-}*/

@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 15:13:24 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/17 02:15:13 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/19 08:33:59 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,11 +35,3 @@ char	*ft_strnstr(const char *str, const char *to_find, size_t len)
 	}
 	return (0);
 }
-/* #include<string.h>
-int main ()
-{
-	char s[] = "hello world";
-	char f[] = "he";
-	printf("%s\n", ft_strnstr(s, f , 9));
-	printf("%s", strnstr(s , f, 9));
-}*/

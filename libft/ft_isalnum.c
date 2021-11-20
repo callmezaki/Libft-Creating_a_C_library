@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 14:46:42 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/17 02:06:22 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/18 20:59:31 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,3 @@ int	ft_isalnum(int c)
 	else
 		return (0);
 }
-
-/*int main()
-{
-	printf("%d", ft_isalnum('h'));	
-}*/

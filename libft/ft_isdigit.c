@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 14:43:40 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/17 02:07:15 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/18 20:59:41 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,3 @@ int	ft_isdigit(int c)
 	else
 		return (0);
 }
-/* int main()
-{
-	printf("%d", ft_isdigit('7'));
-}*/

@@ -6,7 +6,7 @@
 /*   By: zait-sli <zait-sli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 11:37:14 by zait-sli          #+#    #+#             */
-/*   Updated: 2021/11/17 02:09:06 by zait-sli         ###   ########.fr       */
+/*   Updated: 2021/11/18 21:00:29 by zait-sli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,9 +30,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (d);
 }
-/* int main ()
-{
-	char dst[] = "zack";
-	char src[] = "Z";
-	printf("%s", ft_memcpy(dst, src, 2));
-}*/
