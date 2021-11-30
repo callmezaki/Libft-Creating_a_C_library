@@ -5,4 +5,4 @@ I Created this repo to share my Expreince and my new projects and also the ones 
 I will be updating this repo and adding commits frequently
 Enjoy!!!
 
-The first project is creating a C ;ibrary with our own functions in it.
+The first project is creating a C ibrary with our own functions in it.
